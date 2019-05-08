@@ -1,0 +1,34 @@
+.text-black {
+    --button-text-color: #000 !important;
+}
+
+a.inverted {
+    background: transparent;
+    border: 1px solid #fff !important;
+}
+[class*="column"].headeline {
+    text-align:center;
+    grid-column: 1 / -1!important;
+
+}
+[class*="column"].headeline a{
+    margin: 16px !important;
+}
+hr {
+    margin: 0 !important;
+}
+
+
+
+.company-name {
+    font-size: 1em !important;
+    --company-name: 'Fellowship Healthcare Group';
+}
+
+.company-name:after {
+    content: var(--company-name) !important;
+} 
+
+h4 {
+    margin-top: 1em !important;
+}
