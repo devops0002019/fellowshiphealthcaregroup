@@ -1,13 +1,13 @@
-document.documentElement.style .setProperty('--primary', '#00334e');
-document.documentElement.style .setProperty('--secondary', '#00334e');
+document.documentElement.style .setProperty('--primary', '#e7b183');
+document.documentElement.style .setProperty('--secondary', 'red');
 document.documentElement.style .setProperty('--tertiary', '#FAFAFA');
 document.documentElement.style .setProperty('--quaternary', '#FAFAFA');
 document.documentElement.style .setProperty('--border', '#d8d8d8');
 document.documentElement.style .setProperty('--page-max-width', '1024px');
 document.documentElement.style .setProperty('--navbar-background', 'transparent');
-document.documentElement.style .setProperty('--navbar-text-color', 'white');
-document.documentElement.style .setProperty('--header-background', '#00334e');
-document.documentElement.style .setProperty('--header-text-color', 'white');
+document.documentElement.style .setProperty('--navbar-text-color', '#000');
+document.documentElement.style .setProperty('--header-background', '#e7b183');
+document.documentElement.style .setProperty('--header-text-color', '#000');
 document.documentElement.style .setProperty('--footer-background', '#fff');
 document.documentElement.style .setProperty('--footer-text-color', '#000');
 document.documentElement.style .setProperty('--h1-color', 'black');
@@ -23,7 +23,6 @@ const navbar_data = [
 function navbar_template(navbar) {
    return `
     <ul class="menu-list">
-    <i class="fas fa-universal-access fa-4x"></i>
         <li><a class="text-white" href="./"><h3>${navbar.brand}</h3></a></li>
     </ul>
  `;
