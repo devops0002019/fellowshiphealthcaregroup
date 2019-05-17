@@ -153,8 +153,8 @@ a.brand > * {
     background-position: right center !important;
 
     --bg-gradient-1: #0F2027;
-    --bg-gradient-1: -webkit-linear-gradient(to right, rgba(44, 83, 100, 0.55), rgba(32, 58, 67, 0.52), rgba(15, 32, 39, 0.54));
-    --bg-gradient-1: linear-gradient(to right, rgba(44, 83, 100, 0.53), rgba(32, 58, 67, 0.53), rgba(15, 32, 39, 0.56));
+    --bg-gradient-1: -webkit-linear-gradient(to right, rgba(13, 0, 26, 0.55), rgba(13, 0, 26, 0.55), rgba(13, 0, 26, 0.55));
+    --bg-gradient-1: linear-gradient(to right, rgba(13, 0, 26, 0.55), rgba(13, 0, 26, 0.55), rgba(13, 0, 26, 0.55));
 
     --bg-gradient-2: #000000;
     --bg-gradient-2: -webkit-linear-gradient(to right, rgba(15, 155, 15, 0.63), rgba(0, 0, 0, 0.34));
@@ -265,18 +265,18 @@ a.brand > * {
 
 
 
-[class*="deep-both"][class*="1"] {
-    background-image: var(--bg-gradient-1), url('/img/img1.jpg');
+[class*="deep-both"][class*="-1"] {
+    background-image: var(--bg-gradient-6), url('/img/img1.jpg');
 }
 
 
-[class*="deep-both"][class*="2"]{
+[class*="deep-both"][class*="-2"]{
     background-image: var(--bg-gradient-1), url('/img/img2.jpg') !important;
 }
 
 
-[class*="deep-both"][class*="3"]{
-    background-image: var(--bg-gradient-6),url('/img/img3.jpg')!important;
+[class*="deep-both"][class*="-3"]{
+    background-image: var(--bg-gradient-1),url('/img/img6.jpg')!important;
 }
 
 

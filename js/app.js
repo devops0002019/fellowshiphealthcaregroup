@@ -1,4 +1,4 @@
-document.documentElement.style .setProperty('--primary', '#add2e6');
+document.documentElement.style .setProperty('--primary', '#f6abb6');
 document.documentElement.style .setProperty('--secondary', 'red');
 document.documentElement.style .setProperty('--tertiary', '#FAFAFA');
 document.documentElement.style .setProperty('--quaternary', '#FAFAFA');
